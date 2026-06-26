@@ -1,0 +1,23 @@
+# Ignore CSV data
+data/*.csv
+
+# Ignore uploaded images
+uploads/events/*
+uploads/gallery/*
+
+# Keep upload folders
+!uploads/events/.gitkeep
+!uploads/gallery/.gitkeep
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Temporary files
+hash.php
+generate.php
